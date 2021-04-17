@@ -22,7 +22,7 @@ class MyDocument extends Document {
 
           <link
             rel="shortcut icon"
-            href="images/logos/logo.png"
+            href="images/logos/title.png"
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="/images/nosotros/logo.png" />
