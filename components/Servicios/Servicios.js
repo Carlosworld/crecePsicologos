@@ -24,7 +24,7 @@ const Servicios = () => {
                 </div>
                 <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
-                    <h3>Personal capasitado y certificado</h3>
+                    <h3>Personal capacitado y certificado</h3>
                     <p>
                     </p>
                 </div>

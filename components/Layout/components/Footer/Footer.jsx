@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-lg-4 col-md-12 col-sm-12">
                 <div className="footer-widget">
-                  <h4>SOBRE FisioMax</h4>
+                  <h4>SOBRE CrecePsicologos</h4>
                   <p>
                   {/* <strong>Dirección.</strong><br /> */}
                     Nicolas Bravo 341. centro, Cd. Lázaro Cárdenas, Mich, Mx.
