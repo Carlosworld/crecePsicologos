@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.2",
+    "animate.css": "^4.1.1",
     "axios": "^0.21.1",
     "contentful": "^8.2.1",
     "next": "^10.1.4-canary.3",

@@ -28,8 +28,12 @@ class MyDocument extends Document {
           <link rel="apple-touch-icon" href="/images/nosotros/logo.png" />
           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
             integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-            crossorigin="" />
-
+            crossorigin="" 
+          />
+          <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          />
           <link rel="stylesheet" href="/css/bootstrap.min.css" />
           <link rel="stylesheet" href="/css/style.css" />
           <link rel="stylesheet" href="/css/responsive.css" />
@@ -45,7 +49,11 @@ class MyDocument extends Document {
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
 
-
+          {/* <script src="js/wow.min.js"></script> */}
+          <script src="https://wowjs.uk/dist/wow.min.js"/>
+              <script>
+              new WOW().init();
+              </script>
           <script src="/js/jquery-3.2.1.min.js"></script>
           <script src="/js/popper.min.js"></script>
           <script src="/js/bootstrap.min.js"></script>

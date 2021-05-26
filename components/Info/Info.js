@@ -5,11 +5,12 @@ const Info = () => {
     return (
         <div>
         <div className="about-box-main">
-            <div className="container">
+            <div className="container ">
             <h2 className="noo-sh-title">
                 {/* <span>Terapias Físicas</span> */}
             </h2>
-            <div className="row my-5">
+            {/* <h1 class="animate__animated animate__bounce">An animated element</h1> */}
+            <div className="row my-5 wow bounceInDown">
                 <div className="col-lg-6">
                 <h2 className="noo-sh-title">
                     Atención Psicológica<span></span>
@@ -48,7 +49,7 @@ const Info = () => {
                 </ul>    
             </div>
             <div className="col-lg-6">
-                <div className="banner-frame">
+                <div className="banner-frame ">
                     <img
                     className="img-fluid"
                     src="https://image.freepik.com/vector-gratis/ilustracion-concepto-psicologo_114360-2040.jpg"
@@ -57,7 +58,7 @@ const Info = () => {
                 </div>
             </div>
         </div>
-        <div className="row my-5">
+        <div className="row my-5  wow bounceInLeft">
         <div className="col-lg-6">
                 <div className="banner-frame">
                     <img
@@ -100,11 +101,11 @@ const Info = () => {
                         </p>
                     </li>
                 </ul>
-                {/* <div className="actions">
+                <div className="actions  wow fadeInLeft">
                         <a href="../our-services">
                         ¡Conoce nuestros servicios!
                         </a>
-                </div> */}
+                </div>
                 <style jsx>{`
                         .actions {
                             margin-top: 20px;
